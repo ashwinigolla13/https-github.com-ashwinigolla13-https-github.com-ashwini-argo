@@ -434,17 +434,6 @@ const CropPrediction = () => {
           ))}
         </div>
 
-        <div>
-          <label className="block mb-2 font-semibold">
-            Upload Soil Test Report (optional)
-          </label>
-          <input type="file" onChange={handleFileUpload} />
-          {soilTestFile && (
-            <p className="mt-2 text-sm text-gray-600">
-              Uploaded file: {soilTestFile}
-            </p>
-          )}
-        </div>
       </section>
 
       {/* Predict Button */}

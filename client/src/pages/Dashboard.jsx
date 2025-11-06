@@ -191,7 +191,6 @@ const Dashboard = () => {
                 <TableHead onClick={() => handleSort("ph")} className="cursor-pointer">pH</TableHead>
                 <TableHead onClick={() => handleSort("rainfall")} className="cursor-pointer">Rainfall (mm)</TableHead>
                 <TableHead onClick={() => handleSort("timestamp")} className="cursor-pointer">Timestamp</TableHead>
-                <TableHead>Action</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -207,15 +206,6 @@ const Dashboard = () => {
                   <TableCell>{entry.ph}</TableCell>
                   <TableCell>{entry.rainfall}</TableCell>
                   <TableCell>{entry.timestamp}</TableCell>
-                  <TableCell>
-                    <Button
-                      size="icon"
-                      variant="ghost"
-                      onClick={() => handleDelete(entry.id)}
-                    >
-                      <Trash2 className="w-4 h-4 text-red-500" />
-                    </Button>
-                  </TableCell>
                 </TableRow>
               ))}
             </TableBody>

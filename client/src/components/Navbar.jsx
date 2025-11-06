@@ -24,7 +24,6 @@ const NavigationBar = ({ auth, setAuth }) => {
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         {auth && <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>}
                         {auth && <Nav.Link as={Link} to="/predict">Crop Prediction</Nav.Link>}
-                        {auth && <Nav.Link as={Link} to="#market">Market Prices</Nav.Link>}
                         {auth && <Nav.Link as={Link} to="/community">Community</Nav.Link>}
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 

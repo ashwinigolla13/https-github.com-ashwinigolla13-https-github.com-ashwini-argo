@@ -403,22 +403,7 @@ const Dashboard = () => {
     </p>
   </CardContent>
 </Card>
-<Card>
-  <CardHeader>
-    <CardTitle>Quick Actions</CardTitle>
-  </CardHeader>
-  <CardContent className="flex gap-4">
-    <Button variant="primary" onClick={() => alert('Navigate to Crop Recommendations')}>
-      View Crop Recommendations
-    </Button>
-    <Button variant="primary" onClick={() => alert('Navigate to Soil Health Reports')}>
-      Soil Health Reports
-    </Button>
-    <Button variant="primary" onClick={() => alert('Navigate to Weather Forecast')}>
-      Weather Forecast
-    </Button>
-  </CardContent>
-</Card>
+
 
     </div>
   );
